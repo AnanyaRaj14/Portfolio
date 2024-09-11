@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <div>
-        <h1 className=' text-3xl font-bold  mt-5 mb-5 flex items-center justify-center text-red-500'>About Me</h1>
+        <h1 className=' text-3xl font-bold  mt-5 mb-5 flex items-center justify-center text-red-500 underline'>About Me</h1>
         <img className='max-w-96 max-h-96 m-auto mt-10' src="https://cdn.pixabay.com/photo/2023/07/02/19/01/ai-generated-8102806_1280.jpg" alt="" />
       </div>
       <div className='text-white font-bold mt-14'>
@@ -13,13 +13,14 @@ const About = () => {
       </div>
 
 
-      <div className='text-white flex-col'>
-        <p className='text-3xl font-bold text-red-600  flex items-center justify-center'>SKILLS</p>
-
-        <div className='flex items-center justify-center font-bold hover:text-red-500 cursor-pointer'><p>HTML</p></div>
-        <div className='flex items-center justify-center font-bold hover:text-red-500 cursor-pointer'><p>CSS</p></div>
-        <div className='flex items-center justify-center font-bold hover:text-red-500 cursor-pointer'><p>JavaScript</p>  </div>
-        <div className='flex items-center justify-center font-bold hover:text-red-500 cursor-pointer'><p>ReactJS</p></div>
+      <div className='text-white flex-col bg-red-600 h-48 w-80 mx-auto hover:'>
+        
+          <p className='text-3xl font-bold text-black flex items-center justify-center p-4'>SKILLS</p>
+          <div className='flex items-center justify-center font-bold hover:text-black cursor-pointer'><p>HTML</p></div>
+          <div className='flex items-center justify-center font-bold hover:text-black cursor-pointer'><p>CSS</p></div>
+          <div className='flex items-center justify-center font-bold hover:text-black cursor-pointer'><p>JavaScript</p>  </div>
+          <div className='flex items-center justify-center font-bold hover:text-black cursor-pointer'><p>ReactJS</p></div>
+        
       </div>
     </>
   )
